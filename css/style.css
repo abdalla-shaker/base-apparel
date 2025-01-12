@@ -1,0 +1,115 @@
+/* 
+
+  - FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  - Spacing system (px):
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+.hero-image {
+  height: 100%;
+  background: url(../images/hero-desktop.jpg);
+}
+
+.hero-text {
+  background: url(../images/bg-pattern-desktop.svg);
+  padding: 6.4rem 12.8rem;
+}
+
+.hero-text--logo {
+  margin-bottom: 9.6rem;
+}
+
+h1 {
+  font-size: 6.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1.6rem;
+  line-height: 1.2;
+  color: var(--neutral-dark-grayish-red);
+  margin-bottom: 1.6rem;
+}
+
+h1 span {
+  font-weight: 300;
+  color: var(--primary-desaturated-red);
+}
+
+.hero-text--main-description {
+  font-size: 1.4rem;
+  width: 70%;
+  line-height: 1.7;
+  color: var(--primary-desaturated-red);
+
+  margin-bottom: 2.4rem;
+}
+
+.hero-form {
+  border: 1px solid var(--primary-desaturated-red);
+  width: 70%;
+  border-radius: 100rem;
+  padding-left: 2.4rem;
+}
+
+.hero-form.error {
+  border-color: var(--primary-soft-red);
+}
+
+.hero-form input {
+  width: 100%;
+  padding-right: 1.2rem;
+  outline: none;
+  border: none;
+  color: var(--neutral-dark-grayish-red);
+  font-weight: 600;
+}
+
+.hero-form input::placeholder {
+  color: hsla(0, 36%, 70%, 0.5);
+  font-weight: 600;
+}
+
+.hero-form button {
+  background: var(--redish-gradient);
+  border: none;
+  padding: 1.2rem 3.2rem;
+  border-radius: 100rem;
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease-in-out;
+  scale: 1.1;
+}
+
+.hero-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.25);
+}
+
+.hero-form button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.hero-form button img {
+  display: block;
+}
+
+.hero-form > img {
+  align-self: center;
+  padding: 0 1rem;
+  display: none;
+}
+
+.hero-form.error > img {
+  display: inline;
+}
+
+.error-text {
+  margin-top: 1rem;
+  margin-left: 2.4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-soft-red);
+}

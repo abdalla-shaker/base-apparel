@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", serif;
+}
+
+:root {
+  --primary-desaturated-red: hsl(0, 36%, 70%);
+  --primary-soft-red: hsl(0, 93%, 68%);
+  --neutral-dark-grayish-red: hsl(0, 6%, 24%);
+  --white-gradient: linear-gradient(
+    135deg,
+    hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%)
+  );
+  --redish-gradient: linear-gradient(
+    135deg,
+    hsl(0, 80%, 86%),
+    hsl(0, 74%, 74%)
+  );
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+.hero {
+  height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* **************** */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
