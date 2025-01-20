@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
+    <script src="scripts/app.js" defer></script>
+
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
@@ -42,9 +44,9 @@
           </p>
         </section>
 
-        <form class="hero-form flex error">
+        <form class="hero-form flex" id="form">
           <input
-            type="email"
+            type="text"
             name="email"
             id="email"
             placeholder="Email Address"
@@ -71,7 +73,7 @@
     -->
 
     <footer>
-      <p class="attribution">
+      <p class="attribution" role="none">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a

@@ -108,9 +108,14 @@ h1 span {
 }
 
 .error-text {
+  display: none;
   margin-top: 1rem;
   margin-left: 2.4rem;
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--primary-soft-red);
+}
+
+.error-text.active {
+  display: block;
 }
