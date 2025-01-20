@@ -11,6 +11,7 @@
 .hero-image {
   height: 100%;
   background: url(../images/hero-desktop.jpg);
+  background-position: top center;
 }
 
 .hero-text {

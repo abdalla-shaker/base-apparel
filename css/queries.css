@@ -1,0 +1,80 @@
+@media (max-width: 84em) {
+  .hero-text--main-description {
+    width: 90%;
+  }
+
+  .hero-form {
+    width: 90%;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 48em) {
+  body {
+    display: block;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .hero-image {
+    grid-area: 1;
+    background: url(../images/hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .hero-text--logo {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .hero-text--main-description {
+    text-align: center;
+    margin: 0 auto 2.4rem;
+  }
+
+  .hero-form {
+    margin: 0 auto;
+  }
+
+  .error-text {
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 35.5em) {
+  .grid {
+    grid-template-rows: 1fr 2fr;
+  }
+
+  .hero-text {
+    padding: 6.4rem 8rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .hero-text {
+    padding: 6.4rem 1.6rem;
+  }
+}
